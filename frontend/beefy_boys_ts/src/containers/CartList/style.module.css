@@ -1,0 +1,36 @@
+.wrapper {
+    position: relative;
+  }
+.card_container{
+    width: 300px;
+    margin:15px;
+   
+}
+.pSayButton {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+.titleContainer {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #0d6efd;
+padding: 16px;
+border-radius: 8px;
+margin-bottom: 24px;
+}
+
+.title {
+color: #ffffff;
+font-size: 24px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+.s.totalRow {
+  background-color: #f8f9fa; /* Light gray background */
+  font-weight: bold;          /* Bold text */
+  color: #0d6efd;             /* Blue text color */
+  border-top: 2px solid #0d6efd; /* Blue border on top of the row */
+}

@@ -1,0 +1,30 @@
+.purchaseorderwrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .purchaseordersection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table thead th {
+    background-color: #e9ecef;
+    font-weight: bold;
+  }

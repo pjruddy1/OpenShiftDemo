@@ -1,0 +1,42 @@
+{
+  "products": [
+    {
+      "title": "Big T Shirt",
+      "content": "Biggest T Shirt",
+      "created_at": "23/08/2022",
+      "id": 2
+    },
+    {
+      "title": "Med T Shirt",
+      "content": "Mediumest T Shirt",
+      "created_at": "23/08/2022",
+      "id": 4
+    },
+    {
+      "title": "Small T Shirt",
+      "content": "Smallest T Shirt",
+      "created_at": "23/08/2022",
+      "id": 6
+    }
+  ],
+  "cartProducts": [
+    {
+      "title": "Big T Shirt",
+      "content": "Biggest T Shirt",
+      "created_at": "23/08/2022",
+      "id": "2"
+    },
+    {
+      "title": "Med T Shirt",
+      "content": "Mediumest T Shirt",
+      "created_at": "23/08/2022",
+      "id": "4"
+    },
+    {
+      "title": "Small T Shirt",
+      "content": "Smallest T Shirt",
+      "created_at": "23/08/2022",
+      "id": "6"
+    }
+  ]
+}

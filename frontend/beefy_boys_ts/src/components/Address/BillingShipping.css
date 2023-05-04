@@ -1,0 +1,72 @@
+.billing-shipping-form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.billing-shipping-form h1 {
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+}
+
+.billing-shipping-form input[type="text"],
+.billing-shipping-form input[type="email"],
+.billing-shipping-form input[type="tel"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;
+}
+
+.billing-shipping-form input[type="submit"] {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-top: 24px;
+  transition: background-color 0.3s;
+}
+
+.billing-shipping-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.billing-shipping-form label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.billing-shipping-form .checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.billing-shipping-form input[type="checkbox"] {
+  margin-left: 8px;
+}
+
+.billing-shipping-form .stripe-card-container {
+  margin-top: 16px;
+  background-color: #f8f9fa;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+}
