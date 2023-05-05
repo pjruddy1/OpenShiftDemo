@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:50001/carts";
-const BASE_ADD_URL = "http://localhost:50001/addShirtToCart";
-const BASE_REMOVE_URL = "http://localhost:50001/removeShirtFromCart";
+const BASE_URL = "https://bbt-backend-api-ruddypj-pr-dev.apps.sandbox-m3.1530.p1.openshiftapps.com/carts";
+const BASE_ADD_URL = "https://bbt-backend-api-ruddypj-pr-dev.apps.sandbox-m3.1530.p1.openshiftapps.com/addShirtToCart";
+const BASE_REMOVE_URL = "https://bbt-backend-api-ruddypj-pr-dev.apps.sandbox-m3.1530.p1.openshiftapps.com/removeShirtFromCart";
 
 export class CartAPI {
   static async createCart(){
