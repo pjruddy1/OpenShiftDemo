@@ -1,10 +1,9 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8088/shirts";
+const BASE_URL = "https://backend-api-1-ruddypj-pr-dev.apps.sandbox-m3.1530.p1.openshiftapps.com/shirts";
 
 
 const instance = axios.create({
-  baseURL: 'http://localhost:8088',
 });
 
 export class ProductAPI {

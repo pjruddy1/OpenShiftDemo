@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://bbt-backend-api-ruddypj-pr-dev.apps.sandbox-m3.1530.p1.openshiftapps.com/shirts";
+const BASE_URL = "https://backend-api-1-ruddypj-pr-dev.apps.sandbox-m3.1530.p1.openshiftapps.com/shirts";
 
 
 const instance = axios.create({
