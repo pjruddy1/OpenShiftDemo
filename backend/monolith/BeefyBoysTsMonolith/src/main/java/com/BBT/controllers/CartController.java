@@ -22,8 +22,7 @@ import com.BBT.services.CartService;
 
 @RestController
 @RequestMapping
-@CrossOrigin(origins = {"https://store-manager-ruddypj-pr-dev.apps.sandbox-m3.1530.p1.openshiftapps.com", 
-		"https://store-front-ruddypj-pr-dev.apps.sandbox-m3.1530.p1.openshiftapps.com/"}, methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE})
+@CrossOrigin(origins = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE})
 public class CartController {
 	@Autowired
 	private CartService service;
