@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: "1"
+      author: your_name
+      changes:
+        - sqlFile:
+            path: classpath*:db/changelog/sql/0001_initial_schema.sql
+            encoding: utf8
+            splitStatements: true
+            stripComments: true
